@@ -94,8 +94,11 @@ article p:first-child::before{
     margin-right: var(--spacing-xs);
 }
 
-article p:last-child{
-    color: var(--white);
+article p:last-child::before{
+    content: url('images/icon-clock.svg');
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: var(--spacing-xs);
 }
 
 footer img{
