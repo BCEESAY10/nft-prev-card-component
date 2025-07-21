@@ -98,6 +98,11 @@ footer p{
     margin: 0;
 }
 
+footer p span:hover{
+    cursor: pointer;
+    color: var(--cyan-400);
+}
+
 /* Headings */
 h1,
 h2,
