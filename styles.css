@@ -86,7 +86,17 @@ body {
     background-color: var(--cyan-400);
     opacity: .5;
     pointer-events: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
 }
+.container .header .active-overlay img{
+    width: 2em;
+    cursor: pointer;
+    z-index: 10;
+}
+
 .hide{
     display: none;
 }
