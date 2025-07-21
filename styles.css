@@ -62,7 +62,7 @@ body {
 }
 
 /* Card styles */
-.card {
+.container {
     background: var(--blue-900);
     border-radius: var(--radius);
     box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15);
@@ -71,6 +71,10 @@ body {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-md);
+}
+
+.container .header img{
+    width: 100%;
 }
 
 /* Headings */
