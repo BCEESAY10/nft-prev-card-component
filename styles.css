@@ -77,6 +77,11 @@ body {
     width: 100%;
 }
 
+.heading:hover{
+    color: var(--cyan-400);
+    cursor: pointer;
+}
+
 .content article{
     display: flex;
     align-items: center;
