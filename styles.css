@@ -89,6 +89,9 @@ article p{
 
 article p:first-child::before{
     content: url('images/icon-ethereum.svg');
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: var(--spacing-xs);
 }
 
 article p:last-child{
