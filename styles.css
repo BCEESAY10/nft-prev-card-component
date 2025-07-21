@@ -77,6 +77,12 @@ body {
     width: 100%;
 }
 
+.content article{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 /* Headings */
 h1,
 h2,
