@@ -90,6 +90,12 @@ body {
     align-items: center;
     z-index: 1;
 }
+
+.container .header:hover .active-overlay{
+    display: flex;
+    cursor: pointer;
+}
+
 .container .header .active-overlay img{
     width: 2em;
     cursor: pointer;
